@@ -362,7 +362,7 @@ visibility: hidden;z-index:2;transform:scale(0)
 .slider.index1 .slider-text{top:55%}
 /*index 1*/
 .hd-style1 .hd-sec{
-	background:#020e2a;
+	background:#3C53FC;
 	padding:0px;
 }
 .hd-style1 .hd-rgt {
@@ -442,7 +442,7 @@ visibility: hidden;z-index:2;transform:scale(0)
 
 .service2-sec {
 	overflow: hidden;
-	background:#020e2a;
+	background:#3C53FC;
 	position:relative;
 }
 .service2-sec .sec-title{
@@ -2083,7 +2083,7 @@ padding-left: 0;
 20.Footer Section 
 ======================*/
 footer {
-  background: #020e2a;
+  background: #3C53FC;
   position: relative;
 }
 .footer-sec {
@@ -2284,7 +2284,7 @@ background-size: cover;
 	right: 0;
 }
 .appointment-form::before {
-	background-color: #020e2a;
+	background-color: #3C53FC;
 	content: "";
 	height: 120%;
 	left: -35px;
