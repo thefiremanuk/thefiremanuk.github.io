@@ -96,12 +96,18 @@ ul {
   padding: 0;
 }
 
+.support ul {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+}
+
 ::-moz-selection {
-  background: #fab909;
+  background: #3C53FC;
   text-shadow: none;color:#fff
 }
 ::selection {
-  background: #fab909;
+  background: #3C53FC;
   text-shadow: none;color:#fff
 }
 textarea:focus, input:focus{
@@ -157,7 +163,7 @@ width: 100%;
 2.Scrollup
 ==============*/
 #scrollUp {
-background: #fab909 none repeat scroll 0 0;
+background: #3C53FC none repeat scroll 0 0;
 border-radius: 100%;
 bottom: 5px;
 color: #fff;
@@ -170,7 +176,7 @@ width: 40px;
 }
 #scrollUp:hover {
   opacity: 1;
-  color: #fff!important;background:#d9ba03;
+  color: #fff!important;background:#3C53FC;
 }
 #scrollUp i {
 display: block;
@@ -243,7 +249,7 @@ position:relative
 .main-menu ul li.active::before {
 	position: absolute;
 	content: "";
-	width: 40px;
+	width: 50px;
 	height: 0px;
 	bottom: 18px;
 	z-index: 9;
@@ -251,7 +257,7 @@ position:relative
 	right: 0;
 	margin: 0px auto;
 	border-radius: 2px;
-	border: 1px dashed #fab909;
+	border: 1px solid #3C53FC;
 }
 .main-menu >ul>li>a{
 display: block;
@@ -261,18 +267,18 @@ padding: 34px 16px;
 text-decoration: none;
 text-transform: capitalize;
 transition: all 0.4s ease 0s;position:relative;
-color:#fff;
+color:#000;
 }
 .main-menu ul li ul:hover .main-menu ul li > a{
   background: #ddd;
 }
 .main-menu ul li a:hover {
 transition : all 0.4s 0s ease;
-color:#fab909
+color:#020e2a
 }
 
 .main-menu ul ul {
-background: #fab909 none repeat scroll 0 0;
+background: #3C53FC none repeat scroll 0 0;
 left: 0;
 opacity: 0;
 position: absolute;
@@ -291,7 +297,7 @@ width : 200px;
 .hd-style1 .main-menu > ul > li > a{color:#020e2a}
 .main-menu ul ul li a {
 	padding: 6px 19px;
-	color: #020e2a;
+	color: #fff;
 	display: inline-block;
 	font-weight: 600;
 	font-size: 14px;
@@ -442,7 +448,7 @@ visibility: hidden;z-index:2;transform:scale(0)
 
 .service2-sec {
 	overflow: hidden;
-	background:#3C53FC;
+	background: black;
 	position:relative;
 }
 .service2-sec .sec-title{
@@ -487,7 +493,15 @@ transition: all 0.4s ease 0s;
 }
 .service2-inner .media {
 	padding: 30px 10px;
+	background-color: #3C53FC;
+	color: white;
+	height: 275px;
 }
+
+.service2-inner .media a {
+	color: white;
+}
+
 .service2-details h2{margin-top:10px;margin-bottom:10px}
 .service2-details h2 a {
 	display: inline-block;
@@ -644,7 +658,7 @@ text-align: center;
 }
 .sec-title h1 span {
 	position: relative;
-	color: #fab909;
+	color: #3C53FC;
 }
 .border-shape {
 background-image: url("../img/shape.png");
@@ -1965,7 +1979,7 @@ color: #020e2a;
 .about-us-img::before {
 	position: absolute;
 	content: "";
-	background: #fab909;
+	background: #3C53FC;
 	width: 100%;
 	height: 100%;
 	left: -25px;
