@@ -425,11 +425,7 @@ visibility: hidden;z-index:2;transform:scale(0)
 }
 .why-choose-us-before .sec-title{margin:0;text-align:left;margin-bottom:40px;}
 .why-choose.why-choos-bg {
-	background: #fab909 none repeat scroll 0 0;
-	background-image: url("../img/why-choose-bg.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: #DDDDDD none repeat scroll 0 0;
 	position: relative;
 	overflow:hidden;
 }
@@ -2112,6 +2108,10 @@ padding-bottom: 10px;
 position: relative;
 text-transform: capitalize;
 
+}
+
+.footer-sec a {
+	text-decoration: none;color:#ffffff
 }
 
 .footer-sec p {
