@@ -137,11 +137,11 @@ $(document).ready(function(){
 		/*
 		Preeloader
 		============================*/
-		$(window).load(function() {
-			$('#preloader').fadeOut();
-			$('#preloader-status').delay(200).fadeOut('slow');
-			$('body').delay(200).css({'overflow-x':'hidden'});
-		});
+		// $(window).load(function() {
+		// 	$('#preloader').fadeOut();
+		// 	$('#preloader-status').delay(200).fadeOut('slow');
+		// 	$('body').delay(200).css({'overflow-x':'hidden'});
+		// });
 		/*
 		Project Gallery Js
 		============================*/	

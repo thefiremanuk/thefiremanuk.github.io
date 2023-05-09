@@ -685,6 +685,11 @@ padding-top: 50px;
 .about h3 {
   text-transform: uppercase;
 }
+
+.logbook a {
+	text-decoration: underline;
+	font-weight: bold;
+}
 /*
 8.Service Section
 ============================*/
