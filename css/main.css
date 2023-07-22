@@ -83,7 +83,8 @@ font-size: 18px;
 
 a {
   transition: all 0.5s ease-out;
-  text-decoration: none;color:#020e2a
+  text-decoration: underline;
+  color:#020e2a
 }
 a:active,
 a:hover {
@@ -2120,7 +2121,8 @@ text-transform: capitalize;
 }
 
 .footer-sec a {
-	text-decoration: none;color:#ffffff
+	text-decoration: underline;
+	color:#ffffff
 }
 
 .footer-sec p {
