@@ -1,0 +1,15 @@
+/* Loaded only when JavaScript is off, so the menu is not hidden. */
+@media (max-width: 1179px) {
+  .nav-toggle { display: none; }
+  .site-nav {
+    display: block;
+    position: static;
+    max-height: none;
+    box-shadow: none;
+    background: #ffffff;
+    border-bottom: 1px solid #d9dde5;
+    padding: 8px 16px 24px;
+  }
+  .mobile-call { position: static; }
+  body { padding-bottom: 0; }
+}
